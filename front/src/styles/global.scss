@@ -1,0 +1,22 @@
+#root {
+    --color-primary:  #FF577F;
+    --color-primary-focus: #FF427F;
+    --color-primary-negative: #59323F;
+  
+    --grey-0: #F8F9FA;
+    --grey-1: #868E96;
+    --grey-2: #343B41;
+    --grey-3: #212529;
+    --grey-4: #121214;
+  
+    --title-1: 20px;
+    --title-2: 16px;
+    --paragraph: 16px;
+    --button-label: 14px;
+
+    --weigth-600: 600;
+    --weigth-500: 600;
+  
+    background-color: var(--grey-4);
+    font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,21 @@
+.containerContentLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+
+    .containerInputsLogin {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 10px;
+            position: relative;
+        }
+    }
+};

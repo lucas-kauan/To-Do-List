@@ -1,0 +1,29 @@
+.sectionLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+    .containerSectionLogin {
+        display: flex;
+        flex-direction: column;
+        width: 325px;
+        padding: 40px 40px;
+        gap: 35px;
+        background-color: var(--grey-3);
+        border-radius: 5px;
+    }
+
+    .containerTitleButton {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        h1 {
+            font-size: var(--title-1);
+            font-weight: var(--weigth-600);
+            color: var(--color-primary);
+        }
+    }
+}

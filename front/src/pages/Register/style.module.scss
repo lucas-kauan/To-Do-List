@@ -1,0 +1,42 @@
+.containerContentLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+
+    .containerInputsLogin {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 10px;
+            position: relative;
+
+            input {
+                height: 40px;
+                padding-left: 10px;
+                border: none;
+                border-radius: 5px;
+                background-color: var(--grey-2);
+                color: var(--grey-0);
+            }
+        }
+    }
+
+    button {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        font-size: var(--button-label);
+        font-weight: var(--weigth-500);
+        color: var(--grey-0);
+        background-color: var(--color-primary);
+        cursor: pointer;
+    }
+};

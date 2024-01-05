@@ -1,0 +1,23 @@
+.buttonFixedLogo {
+    width: 110px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--button-label);
+    font-weight: var(--weigth-500);
+    color: var(--grey-0);
+    background-color: var(--grey-2);
+    cursor: pointer;
+}
+
+.mainButtonLoginRegister {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--button-label);
+    font-weight: var(--weigth-500);
+    color: var(--grey-0);
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
