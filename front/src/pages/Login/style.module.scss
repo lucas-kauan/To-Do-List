@@ -1,3 +1,10 @@
+.title {
+    text-align: center;
+    color: var(--grey-0);
+    font-size: var(--title-2);
+    font-weight: var(--weight-500);
+}
+
 .containerContentLogin {
     display: flex;
     flex-direction: column;

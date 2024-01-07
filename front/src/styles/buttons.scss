@@ -10,6 +10,10 @@
     cursor: pointer;
 }
 
+.buttonFixedLogo:hover {
+    background-color: var(--grey-focus);
+}
+
 .mainButtonLoginRegister {
     width: 100%;
     height: 40px;
@@ -20,4 +24,24 @@
     color: var(--grey-0);
     background-color: var(--color-primary);
     cursor: pointer;
+}
+
+.mainButtonLoginRegister:hover {
+    background-color: var(--color-primary-focus);
+}
+
+.buttonAddTasks {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--button-label);
+    font-weight: var(--weigth-500);
+    color: var(--grey-0);
+    background-color: var(--grey-2);
+    cursor: pointer;
+}
+
+.buttonAddTasks:hover {
+    background-color: var(--grey-focus);
 }

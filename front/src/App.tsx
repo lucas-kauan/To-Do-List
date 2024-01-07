@@ -1,4 +1,3 @@
-
 import './styles/index.scss';
 
 function App() {
@@ -6,7 +5,7 @@ function App() {
 
   return (
     <>
-  
+      
     </>
   )
 }

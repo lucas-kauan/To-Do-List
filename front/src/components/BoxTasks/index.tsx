@@ -2,8 +2,8 @@ import styles from './style.module.scss';
 
 const BoxTasks = ({children, button}: any) => {
     return (
-        <section className={styles.sectionLogin}>
-            <div className={styles.containerSectionLogin}>
+        <section className={styles.sectionTasks}>
+            <div className={styles.containerTittleButton}>
                 <div className={styles.containerTitleButton}>
                     <h1>Tarefas</h1>
                     {

@@ -15,6 +15,7 @@ const BoxLoginRegister = ({children, button}: any) => {
                     children
                 }
             </div>
+            
         </section>
     )
 

@@ -10,6 +10,7 @@ const Login = () => {
 
     return (
         <BoxLoginRegister button={<Button className={'buttonFixedLogo'} type={'button'} value={'Cadastre-se'} />}>
+            <h2 className={styles.title}>Login</h2>
             <div className={styles.containerContentLogin}>    
                 <div className={styles.containerInputsLogin}>
                     

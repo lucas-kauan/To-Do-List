@@ -10,6 +10,7 @@ const Register = () => {
 
     return (
         <BoxLoginRegister button={<Button className={'buttonFixedLogo'} type={'button'} value={'Entrar'} />} >
+            <h2 className={styles.title}>Cadastre-se</h2>
             <div className={styles.containerContentLogin}>
                 <div className={styles.containerInputsLogin}>
                     
